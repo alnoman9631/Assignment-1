@@ -12,6 +12,21 @@ body{
 
 }
 
+.bton{
+    padding: 14px 28px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.bton-primary{
+    background-color: blue;
+    color: #ffffff;
+}
+
+
+
 .navbar {
   display: flex;
   align-items: center;
@@ -20,3 +35,5 @@ body{
   background-color: #ffffff;
   border-bottom: 1px solid #e5e7eb;
 }
+
+
