@@ -244,6 +244,54 @@ body {
   border-bottom-color: #1f2c3a;
 }
 
+/* Hacathon section */
+
+
+.hackathon {
+  background-color: #ede9fe; /* light purple, matches the tech theme */
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.hackathon-content {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.tag-light {
+  background-color: #ffffff;
+}
+
+.hackathon h2 {
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.hackathon p {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Left-align the little list even though the section is centered */
+.hackathon-list {
+  list-style: none;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.hackathon-list li {
+  padding: 6px 0;
+}
+
+.hackathon-list li::before {
+  content: "✓ ";
+  color: #2563eb;
+  font-weight: bold;
+}
+
+
+
 
 /* footer section */
 
