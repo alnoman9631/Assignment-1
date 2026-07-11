@@ -173,3 +173,120 @@ body {
   color: #555;
   font-size: 15px;
 }
+
+
+/* price card section */
+
+.pricing {
+  padding: 80px 60px;
+  background-color: #f8f9fb;
+}
+
+.pricing-grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.price-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 40px 30px;
+  width: 300px;
+  text-align: left;
+}
+
+
+.price-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.price-card .price {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.price-card .price span {
+  font-size: 14px;
+  font-weight: normal;
+  color: #777;
+}
+
+.price-card .features {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.price-card .features li {
+  padding: 6px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.price-card .btn {
+  width: 100%;
+  text-align: center;
+}
+
+/*pro */
+
+.price-card.featured {
+  background-color: #0d1b2a;
+  color: #ffffff;
+}
+
+.price-card.featured .price span,
+.price-card.featured .features li {
+  color: #cbd5e1;
+  border-bottom-color: #1f2c3a;
+}
+
+
+/* footer section */
+
+.footer {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  padding: 40px 60px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo span {
+  color: #60a5fa;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #2563eb;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #33475b;
+  margin-bottom: 20px;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
