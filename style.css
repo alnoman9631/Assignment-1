@@ -260,29 +260,34 @@ body {
 /* Hacathon section */
 
 
+
 .hackathon {
-  background-color: #ede9fe; /* light purple, matches the tech theme */
-  padding: 80px 60px;
+  background: linear-gradient(135deg, #0d1b2a, #142c46);
+  padding: 90px 60px;
   text-align: center;
 }
+
 
 .hackathon-content {
   max-width: 650px;
   margin: 0 auto;
 }
 
-.tag-light {
-  background-color: #ffffff;
+.tag-dark {
+  background-color: rgba(96, 165, 250, 0.15); 
+  color: #93c5fd;
 }
 
 .hackathon h2 {
-  font-size: 30px;
+  font-size: 32px;
   margin: 15px 0;
+  color: #ffffff;
 }
 
 .hackathon p {
-  margin-bottom: 20px;
-  color: #333;
+  margin-bottom: 24px;
+  color: #b8c4d3; 
+  font-size: 17px;
 }
 
 /* Left-align the little list even though the section is centered */
@@ -293,9 +298,12 @@ body {
   margin-bottom: 30px;
 }
 
+
 .hackathon-list li {
   padding: 6px 0;
+  color: #d6dee7;
 }
+
 
 .hackathon-list li::before {
   content: "✓ ";
@@ -321,22 +329,37 @@ body {
   margin-bottom: 20px;
 }
 
+/* 
 .footer-logo span {
   color: #60a5fa;
-}
+} */
 
 .social-links {
   display: flex;
   gap: 20px;
 }
 
+/* .social-links a {
+  color: #ffffff;
+  text-decoration: none;
+} */
+
 .social-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   color: #ffffff;
   text-decoration: none;
 }
 
 .social-links a:hover {
   color: #2563eb;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
 }
 
 .footer-divider {
@@ -351,3 +374,21 @@ body {
   color: #cbd5e1;
 }
 
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.footer-logo-icon {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
+.accent {
+  color: #60a5fa;
+}
