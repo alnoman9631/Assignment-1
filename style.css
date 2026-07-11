@@ -65,6 +65,12 @@ body {
   color: #2563eb;
 }
 
+.logo-img {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
 .nav-links {
   display: flex;
   gap: 30px;
@@ -124,11 +130,17 @@ body {
 
 }
 
-.speakers-grid{
-  display: flex;
-  flex-wrap: wrap;
+.speaker-grid{
+
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* flex-wrap: wrap; */
   gap: 30px;
-  justify-content: center;
+  /* justify-content: center; */
+
+  max-width: 1000px;
+  margin: 0 auto;
 
 }
 
@@ -137,8 +149,9 @@ body {
   border:1px solid #e5e7eb;
   border-radius: 8px;
   overflow: hidden;
-  width: 45%;
-  min-width: 300px;
+
+  /* width: 45%; */
+  /* min-width: 300px; */
   /* text-align: center; */
 
 }
